@@ -1,13 +1,10 @@
-.main.active {
+.active .main {
   left: 250px;
-  
-  nav[role=navigation] {
-    left: 0;
-  }
 }
 
 nav[role=navigation] {
   overflow: hidden;
+  left: 0;
 }
 
 .js nav[role=navigation] {
@@ -50,5 +47,8 @@ nav[role=navigation] {
 
       }
     }
-    
+}
+
+.js.active nav[role=navigation] {
+  left: 0;
 }
