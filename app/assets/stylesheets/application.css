@@ -14,7 +14,7 @@
 /* Import Fonts */
 /* Reset */
 /* Reset */
-/* line 13, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/reset.scss */
+/* line 13, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_reset.scss */
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -38,7 +38,7 @@ time, mark, audio, video {
 
 /* Box Sizing */
 /* Box Sizing */
-/* line 3, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/boxsizing.scss */
+/* line 3, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_boxsizing.scss */
 *,
 input[type="search"] {
   -webkit-box-sizing: border-box;
@@ -47,7 +47,7 @@ input[type="search"] {
 }
 
 /* Irish Box Model with Schepp box-sizing polyfill */
-/* line 10, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/boxsizing.scss */
+/* line 10, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_boxsizing.scss */
 .border-box {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -58,7 +58,7 @@ input[type="search"] {
 /* Elements */
 /* Elements */
 /* Add HTML5 elements */
-/* line 14, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/elements.scss */
+/* line 14, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_elements.scss */
 article,
 aside,
 details,
@@ -74,7 +74,7 @@ summary {
 }
 
 /* Defaults */
-/* line 27, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/elements.scss */
+/* line 27, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_elements.scss */
 body,
 h1,
 h2,
@@ -92,41 +92,41 @@ input {
   text-decoration: none;
 }
 
-/* line 34, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/elements.scss */
+/* line 34, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_elements.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #73bdc8;
 }
 
-/* line 35, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/elements.scss */
+/* line 35, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_elements.scss */
 a {
   color: #ef518b;
 }
 
-/* line 37, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/elements.scss */
+/* line 37, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_elements.scss */
 ol, ul, dl {
   list-style: none;
   margin: auto auto 1.5em;
 }
 
-/* line 41, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/elements.scss */
+/* line 41, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_elements.scss */
 blockquote, q {
   quotes: none;
 }
 
-/* line 46, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/elements.scss */
+/* line 46, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_elements.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
 
-/* line 51, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/elements.scss */
+/* line 51, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_elements.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 56, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/elements.scss */
+/* line 56, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_elements.scss */
 article {
   margin: auto auto 1.5em;
   margin-top: 1.875em;
@@ -141,7 +141,7 @@ article {
 /* Typography */
 /* Main Elements */
 /* optimize base font size w/ variable */
-/* line 5, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/typography.scss */
+/* line 5, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_typography.scss */
 html {
   font-size: 16px;
   line-height: 1.625em;
@@ -151,7 +151,7 @@ html {
 }
 
 /* optimize by eleminating prefixes */
-/* line 14, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/typography.scss */
+/* line 14, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_typography.scss */
 body {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
@@ -162,7 +162,7 @@ body {
 }
 
 /* Headings */
-/* line 24, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/typography.scss */
+/* line 24, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   margin-top: 0;
@@ -171,42 +171,42 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* optimize font sizing so its only declared once */
-/* line 33, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/typography.scss */
+/* line 33, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_typography.scss */
 h1,
 .alpha {
   font-size: 2.25rem;
   margin: 0 0 0.6875em;
 }
 
-/* line 39, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/typography.scss */
+/* line 39, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_typography.scss */
 h2,
 .beta {
   font-size: 1.25rem;
   margin: 0 0 0.75em;
 }
 
-/* line 45, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/typography.scss */
+/* line 45, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_typography.scss */
 h3,
 .gamma {
   font-size: 1.125rem;
   margin: 0 0 0.8125em;
 }
 
-/* line 51, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/typography.scss */
+/* line 51, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_typography.scss */
 h4,
 .delta {
   font-size: 1rem;
   margin: 0 0 1.0625em;
 }
 
-/* line 57, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/typography.scss */
+/* line 57, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_typography.scss */
 h5,
 .epsilon {
   font-size: 0.875rem;
   margin: 0 0 1.125em;
 }
 
-/* line 63, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/typography.scss */
+/* line 63, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_typography.scss */
 h6,
 .zeta {
   font-size: 0.75rem;
@@ -214,33 +214,33 @@ h6,
 }
 
 /* Text */
-/* line 70, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/typography.scss */
+/* line 70, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_typography.scss */
 p {
   margin: auto auto 1.5em;
 }
 
-/* line 73, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/typography.scss */
+/* line 73, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_typography.scss */
 p + p {
   /* text-indent: 1.5em; indent subsequent paragraphs */
   margin-top: -1.5em;
 }
 
-/* line 77, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/typography.scss */
+/* line 77, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_typography.scss */
 small {
   font-size: 65%;
 }
 
 /* Anchors */
-/* line 82, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/typography.scss */
+/* line 82, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_typography.scss */
 a {
   text-decoration: none;
 }
 
-/* line 86, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/typography.scss */
+/* line 86, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_typography.scss */
 .inverse h1, .inverse h2, .inverse h3, .inverse h4, .inverse h5, .inverse h6 {
   text-transform: uppercase;
 }
-/* line 91, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/typography.scss */
+/* line 91, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_typography.scss */
 .inverse h1, .inverse h2, .inverse h3, .inverse h4, .inverse h5, .inverse h6,
 .inverse p {
   color: white;
@@ -249,37 +249,37 @@ a {
 /* Form */
 /* Reset Form Elements */
 /* Input */
-/* line 3, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/forms.scss */
+/* line 3, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_forms.scss */
 label {
   display: block;
 }
 
-/* line 4, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/forms.scss */
+/* line 4, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_forms.scss */
 input {
   display: inline-block;
 }
 
-/* line 5, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/forms.scss */
+/* line 5, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_forms.scss */
 input {
   outline: none;
 }
 
-/* line 6, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/forms.scss */
+/* line 6, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_forms.scss */
 input:focus {
   outline: none;
 }
 
-/* line 7, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/forms.scss */
+/* line 7, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_forms.scss */
 input, select {
   vertical-align: middle;
 }
 
-/* line 8, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/forms.scss */
+/* line 8, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_forms.scss */
 select:focus {
   outline: none;
 }
 
-/* line 22, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/forms.scss */
+/* line 22, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_forms.scss */
 input[type="text"],
 input[type="password"],
 input[type="date"],
@@ -300,13 +300,13 @@ textarea {
 }
 
 /* Buttons */
-/* line 29, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/forms.scss */
+/* line 29, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_forms.scss */
 button {
   width: auto;
   overflow: visible;
 }
 
-/* line 37, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/forms.scss */
+/* line 37, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_forms.scss */
 button,
 input,
 select,
@@ -317,7 +317,7 @@ textarea {
   *vertical-align: middle;
 }
 
-/* line 47, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/forms.scss */
+/* line 47, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_forms.scss */
 button,
 input[type="button"],
 input[type="reset"],
@@ -342,7 +342,7 @@ input[type="submit"] {
   border-color: #f5548c;
   color: white;
 }
-/* line 70, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/forms.scss */
+/* line 70, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_forms.scss */
 button.disabled,
 input[type="button"].disabled,
 input[type="reset"].disabled,
@@ -352,16 +352,16 @@ input[type="submit"].disabled {
 }
 
 /* Fieldset */
-/* line 78, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/forms.scss */
+/* line 78, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_forms.scss */
 fieldset {
   margin: 0 0 0.875em 0;
 }
 
-/* line 82, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/forms.scss */
+/* line 82, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_forms.scss */
 .inset fieldset {
   position: relative;
 }
-/* line 86, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/forms.scss */
+/* line 86, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_forms.scss */
 .inset label {
   position: absolute;
   top: 0.625em;
@@ -370,11 +370,11 @@ fieldset {
 }
 
 /* Inverse */
-/* line 99, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/forms.scss */
+/* line 99, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_forms.scss */
 .inverse label {
   text-align: left;
 }
-/* line 107, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/forms.scss */
+/* line 107, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_forms.scss */
 .inverse button,
 .inverse input[type="button"],
 .inverse input[type="reset"],
@@ -383,7 +383,7 @@ fieldset {
   font-size: 75%;
   text-transform: uppercase;
 }
-/* line 124, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/forms.scss */
+/* line 124, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_forms.scss */
 .inverse input[type="text"],
 .inverse input[type="password"],
 .inverse input[type="date"],
@@ -399,7 +399,7 @@ fieldset {
 .inverse input[type="url"] {
   padding-left: 5.625em;
 }
-/* line 131, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/forms.scss */
+/* line 131, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_forms.scss */
 .inverse button,
 .inverse input[type="button"],
 .inverse input[type="reset"],
@@ -409,21 +409,21 @@ fieldset {
 }
 
 /* Modules */
-/* line 4, ../../../vendor/assets/_skillcult_compass/scss/skillcult/modules/top-bar.scss */
+/* line 4, ../../../vendor/assets/_skillcult_compass/scss/skillcult/modules/_top-bar.scss */
 .top-bar {
   height: 3.125em;
   line-height: 3.125em;
   margin-bottom: 0.625em;
   background: #73bdc8;
 }
-/* line 10, ../../../vendor/assets/_skillcult_compass/scss/skillcult/modules/top-bar.scss */
+/* line 10, ../../../vendor/assets/_skillcult_compass/scss/skillcult/modules/_top-bar.scss */
 .top-bar h1 {
   font-size: 1.125rem;
   color: white;
   padding-left: 2.8125rem;
   line-height: 2.8125em;
 }
-/* line 17, ../../../vendor/assets/_skillcult_compass/scss/skillcult/modules/top-bar.scss */
+/* line 17, ../../../vendor/assets/_skillcult_compass/scss/skillcult/modules/_top-bar.scss */
 .top-bar h1 .menu-link {
   position: absolute;
   margin: 0.625rem;
@@ -434,19 +434,19 @@ fieldset {
   background: #6b6da1;
   color: white;
 }
-/* line 32, ../../../vendor/assets/_skillcult_compass/scss/skillcult/modules/top-bar.scss */
+/* line 32, ../../../vendor/assets/_skillcult_compass/scss/skillcult/modules/_top-bar.scss */
 .top-bar .tools {
   position: absolute;
   right: 0.625em;
   top: 0;
 }
-/* line 37, ../../../vendor/assets/_skillcult_compass/scss/skillcult/modules/top-bar.scss */
+/* line 37, ../../../vendor/assets/_skillcult_compass/scss/skillcult/modules/_top-bar.scss */
 .top-bar .tools a {
   font-weight: bold;
   font-size: 1.125rem;
   color: white;
 }
-/* line 42, ../../../vendor/assets/_skillcult_compass/scss/skillcult/modules/top-bar.scss */
+/* line 42, ../../../vendor/assets/_skillcult_compass/scss/skillcult/modules/_top-bar.scss */
 .top-bar .tools a i {
   background: #edde40;
   font-style: normal;
@@ -459,16 +459,16 @@ fieldset {
   box-shadow: 0 2px 2px #988d25;
 }
 
-/* line 58, ../../../vendor/assets/_skillcult_compass/scss/skillcult/modules/top-bar.scss */
+/* line 58, ../../../vendor/assets/_skillcult_compass/scss/skillcult/modules/_top-bar.scss */
 .inverse {
   background: #73bdc8;
   text-align: center;
 }
-/* line 62, ../../../vendor/assets/_skillcult_compass/scss/skillcult/modules/top-bar.scss */
+/* line 62, ../../../vendor/assets/_skillcult_compass/scss/skillcult/modules/_top-bar.scss */
 .inverse .top-bar {
   background: white;
 }
-/* line 65, ../../../vendor/assets/_skillcult_compass/scss/skillcult/modules/top-bar.scss */
+/* line 65, ../../../vendor/assets/_skillcult_compass/scss/skillcult/modules/_top-bar.scss */
 .inverse .top-bar h1 {
   color: #73bdc8;
   text-transform: uppercase;
@@ -476,13 +476,13 @@ fieldset {
 }
 
 /* Layout */
-/* line 4, ../../../vendor/assets/_skillcult_compass/scss/skillcult/layout/base.scss */
+/* line 4, ../../../vendor/assets/_skillcult_compass/scss/skillcult/layout/_base.scss */
 .main {
   margin-top: 0.625em;
   margin-bottom: 0.625em;
 }
 
-/* line 9, ../../../vendor/assets/_skillcult_compass/scss/skillcult/layout/base.scss */
+/* line 9, ../../../vendor/assets/_skillcult_compass/scss/skillcult/layout/_base.scss */
 .row {
   width: auto;
   margin-left: 0.625em;
@@ -490,31 +490,28 @@ fieldset {
   padding: 0;
 }
 
-/* line 16, ../../../vendor/assets/_skillcult_compass/scss/skillcult/layout/base.scss */
+/* line 16, ../../../vendor/assets/_skillcult_compass/scss/skillcult/layout/_base.scss */
 .center {
   text-align: center;
 }
 
-/* line 22, ../../../vendor/assets/_skillcult_compass/scss/skillcult/layout/base.scss */
+/* line 22, ../../../vendor/assets/_skillcult_compass/scss/skillcult/layout/_base.scss */
 .inverse .row {
   margin: 0 1.875em;
 }
 
-/* line 1, ../../../vendor/assets/_skillcult_compass/scss/skillcult/layout/off-canvas.scss */
-.main.active {
+/* line 1, ../../../vendor/assets/_skillcult_compass/scss/skillcult/layout/_off-canvas.scss */
+.active .main {
   left: 250px;
 }
-/* line 4, ../../../vendor/assets/_skillcult_compass/scss/skillcult/layout/off-canvas.scss */
-.main.active nav[role=navigation] {
+
+/* line 5, ../../../vendor/assets/_skillcult_compass/scss/skillcult/layout/_off-canvas.scss */
+nav[role=navigation] {
+  overflow: hidden;
   left: 0;
 }
 
-/* line 9, ../../../vendor/assets/_skillcult_compass/scss/skillcult/layout/off-canvas.scss */
-nav[role=navigation] {
-  overflow: hidden;
-}
-
-/* line 13, ../../../vendor/assets/_skillcult_compass/scss/skillcult/layout/off-canvas.scss */
+/* line 10, ../../../vendor/assets/_skillcult_compass/scss/skillcult/layout/_off-canvas.scss */
 .js nav[role=navigation] {
   width: 250px;
   height: 100%;
@@ -527,22 +524,22 @@ nav[role=navigation] {
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
-/* line 27, ../../../vendor/assets/_skillcult_compass/scss/skillcult/layout/off-canvas.scss */
+/* line 24, ../../../vendor/assets/_skillcult_compass/scss/skillcult/layout/_off-canvas.scss */
 .js nav[role=navigation] li {
   display: block;
 }
-/* line 31, ../../../vendor/assets/_skillcult_compass/scss/skillcult/layout/off-canvas.scss */
+/* line 28, ../../../vendor/assets/_skillcult_compass/scss/skillcult/layout/_off-canvas.scss */
 .js nav[role=navigation] ul {
   padding: 0;
 }
-/* line 35, ../../../vendor/assets/_skillcult_compass/scss/skillcult/layout/off-canvas.scss */
+/* line 32, ../../../vendor/assets/_skillcult_compass/scss/skillcult/layout/_off-canvas.scss */
 .js nav[role=navigation] li a {
   display: block;
   color: white;
   border-bottom: 1px solid #616193;
   line-height: 3.125em;
 }
-/* line 41, ../../../vendor/assets/_skillcult_compass/scss/skillcult/layout/off-canvas.scss */
+/* line 38, ../../../vendor/assets/_skillcult_compass/scss/skillcult/layout/_off-canvas.scss */
 .js nav[role=navigation] li a i {
   background-color: #7b7caa;
   text-align: center;
@@ -553,17 +550,22 @@ nav[role=navigation] {
   line-height: 3.125em;
 }
 
+/* line 52, ../../../vendor/assets/_skillcult_compass/scss/skillcult/layout/_off-canvas.scss */
+.js.active nav[role=navigation] {
+  left: 0;
+}
+
 /* Breakpoints */
 /* Breakpoints */
 @media only screen and (max-width: 480px) {
-  /* line 7, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/breakpoints.scss */
+  /* line 7, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_breakpoints.scss */
   html {
     font-size: 90%;
   }
 }
 @media only screen and (min-width: 768px) {
   /* @import semantic-gs; */
-  /* line 16, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/breakpoints.scss */
+  /* line 16, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_breakpoints.scss */
   .row {
     width: 90%;
     margin-left: auto;
@@ -574,7 +576,7 @@ nav[role=navigation] {
     max-width: 64.000em;
   }
 
-  /* line 27, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/breakpoints.scss */
+  /* line 27, ../../../vendor/assets/_skillcult_compass/scss/skillcult/global/_breakpoints.scss */
   .inverse .row {
     margin-left: auto;
     margin-right: auto;
@@ -582,22 +584,22 @@ nav[role=navigation] {
 }
 /* Grid Import */
 @media only screen and (min-width: 768px) {
-  /* line 36, ../../../vendor/assets/_skillcult_compass/scss/skillcult/layout/grid.scss */
+  /* line 36, ../../../vendor/assets/_skillcult_compass/scss/skillcult/layout/_grid.scss */
   body {
     width: 100%;
     *zoom: 1;
   }
-  /* line 25, ../../../vendor/assets/_skillcult_compass/scss/skillcult/layout/grid.scss */
+  /* line 25, ../../../vendor/assets/_skillcult_compass/scss/skillcult/layout/_grid.scss */
   body:before, body:after {
     content: "";
     display: table;
   }
-  /* line 29, ../../../vendor/assets/_skillcult_compass/scss/skillcult/layout/grid.scss */
+  /* line 29, ../../../vendor/assets/_skillcult_compass/scss/skillcult/layout/_grid.scss */
   body:after {
     clear: both;
   }
 
-  /* line 66, ../../../vendor/assets/_skillcult_compass/scss/skillcult/layout/grid.scss */
+  /* line 66, ../../../vendor/assets/_skillcult_compass/scss/skillcult/layout/_grid.scss */
   aside {
     display: inline;
     float: left;
