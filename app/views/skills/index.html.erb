@@ -1,0 +1,15 @@
+<h1>Listing skills</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Text</th>
+  </tr>
+
+  <% @skills.each do |skill| %>
+    <tr>
+      <td><%= skill.title %></td>
+      <td><%= skill.text %></td>
+    </tr>
+  <% end %>
+</table>
