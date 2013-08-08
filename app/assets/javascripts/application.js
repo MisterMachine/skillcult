@@ -11,6 +11,14 @@
 // about supported directives.
 //
 //= require jquery
-//= require jquery_ujs
-//= require turbolinks
-//= require_tree .
+//= require moment
+//= require showdown
+//= require handlebars-1.0.0-rc.4
+//= require ember-1.0.0-rc.6.1
+//= require ember-data-0.13
+//= require ember/application
+//= require ember/router
+//= require ember/models/store
+//= require ember/models/project
+//= require ember/controllers/projects_controller
+//= require_self

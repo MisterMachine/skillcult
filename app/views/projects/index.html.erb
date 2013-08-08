@@ -1,16 +1,49 @@
-<h1>Listing Projects</h1>
+<h1>Projects</h1>
 
-<table>
-  <tr>
-    <th>Title</th>
-    <th>Text</th>
-  </tr>
+<!-- projects ember main -->
+<script type="text/x-handlebars" data-template-name="index">
+  <section id="main">
+    {{#each controller}}
+     <article>
+      <h2>{{title}}</h2>
+      <p>{{text}}</p>
+    </article>
+    {{/each}}
+    <nav class="row">
+      <%= link_to 'Add New Project', new_project_path %>
+    </nav>
+  </section>
+</script>
 
-  <% @projects.each do |project| %>
-    <tr>
-      <td><%= project.title %></td>
-      <td><%= project.text %></td>
-    </tr>
+<!-- new -->
+<script type="text/x-handlebars" data-template-name="new">
+  <section id="new">
+  <%= form_for :post, url: projects_path do |f| %>
+    <fieldset>
+      <%= f.label :title %>
+      <%= f.text_field :title, { class: 'text' } %>
+    </fieldset>
+    <fieldset>
+      <%= f.label :text %>
+      <%= f.text_area :text, { class: 'text' } %>
+    </fieldset>
+    <fieldset>
+      <%= f.submit %>
+    </fieldset>
   <% end %>
-</table>
-<%= link_to 'Add New Project', new_project_path %>
+    <nav class="row">
+      <%= link_to 'View Projects', projects_path %>
+    </nav>
+  </section>
+</script>
+
+<!-- show -->
+<script type="text/x-handlebars" data-template-name="show">
+  <section id="show">
+    <article>
+      <h2>Skillcult</h2>
+      <p>Ut culpa high life qui whatever. Aute nostrud nihil next level tofu, id readymade wes anderson ut hoodie. Deserunt wes anderson tattooed minim, blog quis laboris eu. Proident trust fund twee, nesciunt quinoa biodiesel wes anderson freegan you probably haven't heard of them PBR consectetur viral. Delectus velit occaecat brooklyn, vice leggings in irure adipisicing jean shorts cupidatat blog cliche voluptate. Cupidatat tumblr wolf velit blog, nisi food truck sunt pitchfork irure. American apparel aliquip single-origin coffee, biodiesel organic mixtape master cleanse portland vero deserunt wolf quinoa farm-to-table next level.</p>
+    </article>
+    <%= link_to 'View Projects', projects_path %>
+  </section>
+</script>
