@@ -40,17 +40,10 @@
 
     <h1>Skillcult</h1>
 
-  <script type="text/x-handlebars">
-    <div class="navbar">
-      <div class="navbar-inner">
-        <a class="brand" href="#">Bloggr</a>
-        <ul class="nav">
-          <li>{{#linkTo 'projects'}}Projects{{/linkTo}}</li>
-          <li>{{#linkTo 'about'}}About{{/linkTo}}</li>
-        </ul>
-      </div>
-    </div>
+    <%= yield %>
 
+    
+  <script type="text/x-handlebars">
     {{outlet}}
   </script>
 

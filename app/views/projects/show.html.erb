@@ -1,9 +1,15 @@
-<p>
-  <strong>Title:</strong>
-    <%= @project.title %>
-</p>
-<p>
-  <strong>Text:</strong>
-    <%= @project.text %>
-</p>
-<%= link_to 'View Projects', projects_path %>
+<div class="row">
+  <article>
+    <header>
+      <h1><%= @project.title %></h1>
+    </header>
+    <aside><%= @project.intro %></aside>
+    <p><%= @project.extended %></p>
+    <footer>
+      <p>Conjured by: <%= @project.author %></p>
+    </footer>  
+  </article>
+</div>
+<div class="row">
+  <%= link_to 'Projects', projects_path %>
+</div>

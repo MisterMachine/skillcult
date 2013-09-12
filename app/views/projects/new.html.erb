@@ -1,17 +1,27 @@
 <h1>New Project</h1>
 <%= form_for :post, url: projects_path do |f| %>
-<p>
-  <%= f.label :title %><br>
-  <%= f.text_field :title %>
-</p>
-
-<p>
-  <%= f.label :text %><br>
-  <%= f.text_area :text %>
-</p>
-
-<p>
-  <%= f.submit %>
-</p>
+	<fieldset>
+	  <%= f.label :title %>
+		<%= f.text_field :title %>
+	</fieldset>
+	<fieldset>
+	  <%= f.label :author %>
+		<%= f.text_field :author %>
+	</fieldset>
+	<fieldset>
+		<div>
+			<%= f.label :intro %>
+			<%= f.text_area :intro, cols: 30, rows: 3 %>
+		</div>
+	</fieldset>
+	<fieldset>
+		<div>
+			<%= f.label :extended %>
+			<%= f.text_area :extended, cols: 30, rows: 6 %>
+		</div>
+	</fieldset>
+	<fieldset class="form-actions">
+	  <%= f.submit %>
+		<%= link_to 'Cancel', projects_path %>
+	</fieldset>
 <% end %>
-<%= link_to 'View Projects', projects_path %>
