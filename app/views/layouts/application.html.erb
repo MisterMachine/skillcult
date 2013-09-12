@@ -24,13 +24,24 @@
 <!-- Top Bar -->
   <header class="top-bar">
       <h1 class="logo">
-        <a class="button menu-link" href="#">Z</a> Tommy Smith
+        <a class="button menu-link" href="#">SC</a><% if user_signed_in? %>&nbsp;<%= current_user.email %><% end %>
       </h1>
 
       <div class="tools">
-        <a class="icon icon-tool" href="#">12 <i class="coin">$</i></a>
+      <% if user_signed_in? %>
+        <%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
+      <% else %>
+        <%= link_to "Sign up", new_user_registration_path %> or <%= link_to "Sign in", new_user_session_path %>
+      <% end %>
       </div>
   </header>
+
+
+<!-- Messages -->
+  <section id="messages" class="main">
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+  </section>
 
 <!-- Main Content Area -->
   <section id="container" class="main">
